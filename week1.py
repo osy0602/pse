@@ -15,7 +15,7 @@ def fibonacci(n):
         for i in range(2, n):
             next_number = fib_sequence[i - 1] + fib_sequence[i - 2]
             fib_sequence.append(next_number)
-        return fib_sequence[-1]
+        return fib_sequence
 
 def factorial(n):
     if n < 0:
