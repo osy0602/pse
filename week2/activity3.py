@@ -1,3 +1,20 @@
+class Student:
+    #Constructor to initialize the student object
+    def __init__(self):
+        self.name = ""
+        self.age = 0
+        self.address = ""
+        self.stdID = 0
+    def getdata(self):
+        #Get Student data from input
+        print("===================Enter Student Data===================")
+        self.name = input("Enter Student's Name(Q to quit): ")
+        if self.name.upper() == 'Q':
+            return None
+        self.age = input("Enter Student's Age: ")
+        self.address = input("Enter Student's Address: ")
+        self.stdID = int(input("Enter Student's ID(number): "))
+        return {"Name": self.name, "Age": self.age, "Address": self.address, "Student ID": self.stdID}
 
 class StudentList:
     #Constructor to initialize the student list
@@ -7,16 +24,11 @@ class StudentList:
 
     def getdata(self):
         #Get Student data from input
-        print("================================================")
-        name = input("Enter Student's Name(if you want to quit type 'Q'): ")
-        if name.upper() == 'Q':
-            self.display()
-            exit()
-        age = input("Enter Student's Age: ")
-        address = input("Enter Student's Address: ")
-        stdID = input("Enter Student's ID(number): ")
-        student = {"Name": name, "Age": age, "Address": address, "Student ID": int(stdID)}
-        self.stdList.append(student)
+        while True:
+            student = Student().getdata()
+            if student is None:
+                break
+            self.stdList.append(student)
         
     def display(self):
         self.stdList.sort(key=lambda x: x["Student ID"])
@@ -25,7 +37,6 @@ class StudentList:
             print(f"Name: {student['Name']}, Age: {student['Age']}, Address: {student['Address']}, Student ID: {student['Student ID']}")
 
 if __name__ == "__main__":
-    stdlist = StudentList()
-    while True:
-        stdlist.getdata()
-        
+    student_list = StudentList()
+    student_list.getdata()
+    student_list.display()
