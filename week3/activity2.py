@@ -5,7 +5,7 @@ class ReadingFile:
         print(len(lines))
 
     with open("week3/junk.txt","a") as data:
-        data.write("text file nanalyssis")
+        data.write("\ntext file nanalyssis")
 
     with open("week3/junk.txt","r") as data:
         lowerfile = data.read().lower()

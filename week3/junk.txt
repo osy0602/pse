@@ -17,4 +17,4 @@ ABCDE
 Test record 01
 Test record 02
 
-End of junk data.texttext file nanalyssis
+End of junk data.text
