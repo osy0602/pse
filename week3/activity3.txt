@@ -1,0 +1,4 @@
+This ER diagram explains an enrollment system in a university. This system manages lectures, lecturers, subjects, enrollments, and students.
+The Lecture entity is connected with the Enrols and Lectures relationships. The Student entity contains students' personal information such as name and ID. We can add attributes such as a student's phone number or address.
+
+Student–Enrollment–Lecture: Enrolled students can attend many lectures, and each lecture can have many students. Therefore, this relationship is a many-to-many relationship.
