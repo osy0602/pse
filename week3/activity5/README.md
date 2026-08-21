@@ -76,4 +76,4 @@ return_amount = amount × exchange_rate
 
 ## Use Case Diagram
 
-![Money Exchange Use Case Diagram](https://github.com/osy0602/pse/blob/main/week3/activity5/moneyExchange_UsecaseD.png)
+![Money Exchange Use Case Diagram](https://github.com/osy0602/pse/blob/main/week3/activity5/moneyexchange_UsecaseD.png)
