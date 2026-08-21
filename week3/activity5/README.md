@@ -73,3 +73,7 @@ return_amount = amount × exchange_rate
 ## ER Diagram
 
 ![Money Exchange ER Diagram](https://github.com/osy0602/pse/blob/main/week3/activity5/moneyExchange_ERD.png)
+
+## Use Case Diagram
+
+![Money Exchange Use Case Diagram](https://github.com/osy0602/pse/blob/main/week3/activity5/moneyExchange_UsecaseD.png)
