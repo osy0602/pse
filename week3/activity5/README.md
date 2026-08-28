@@ -82,3 +82,7 @@ return_amount = amount × exchange_rate
 
 ![Money Exchange Activity Diagram1](https://github.com/osy0602/pse/blob/main/week3/activity5/AD_1.png)
 ![Money Exchange Activity Diagram2](https://github.com/osy0602/pse/blob/main/week3/activity5/AD_2.png)
+
+## Class Diagram
+
+![Money Exchange Class Diagram](https://github.com/osy0602/pse/blob/main/week3/activity5/class_diagram.png)
