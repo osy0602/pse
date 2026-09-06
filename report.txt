@@ -1,0 +1,37 @@
+{
+    "John Doe": {
+        "salary": 50000,
+        "personal_details": {
+            "age": 30,
+            "department": "Engineering"
+        }
+    },
+    "Jane Smith": {
+        "salary": 60000,
+        "personal_details": {
+            "age": 25,
+            "department": "Marketing"
+        }
+    },
+    "Alice Johnson": {
+        "salary": 55000,
+        "personal_details": {
+            "age": 28,
+            "department": "Sales"
+        }
+    },
+    "Bob Brown": {
+        "salary": 70000,
+        "personal_details": {
+            "age": 35,
+            "department": "HR"
+        }
+    },
+    "Max": {
+        "salary": 70000,
+        "personal_details": {
+            "age": 32,
+            "department": "CEO"
+        }
+    }
+}
